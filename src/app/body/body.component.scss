@@ -1,0 +1,11 @@
+@import "../app.component.scss";
+
+.section {
+    @extend .margin;
+    float: right;
+    width: 84%;
+}
+
+.clearfix {
+    @include clear;
+}

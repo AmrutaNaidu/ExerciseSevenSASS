@@ -1,0 +1,21 @@
+@import "../app.component.scss";
+
+.navbar {
+    background-color: $navBg;
+    float: left;
+    width: 13%;
+
+    ul {
+        @include reset;
+        
+        li {
+            list-style-type: none;
+            padding: 20px;
+            color: $fontClr;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}
+

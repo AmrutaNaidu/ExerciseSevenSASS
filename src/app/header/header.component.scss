@@ -1,0 +1,10 @@
+@import "../app.component.scss";
+
+.header {
+    background-color: $color;
+    color: $fontClr;
+    padding: 30px;
+    font-weight: bold;
+    font-size: $headerFont;
+    @extend .opacity;
+}

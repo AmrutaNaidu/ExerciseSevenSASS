@@ -1,0 +1,25 @@
+/* variables colors */
+$headerBg: #53463c;
+$footerBg: black;
+$navBg: burlywood;
+$fontClr: white;
+
+/* variables fonts */
+$headerFont: 28px;
+
+/* mixins */
+@mixin clear {
+    clear: both;
+}
+@mixin reset {
+    padding: 0;
+    margin: 0;
+}
+
+/* styles */
+.margin {
+    margin: 20px;
+}
+.opacity {
+    opacity: 0.8;
+}
